@@ -15,7 +15,6 @@ public class Game {
             "A7","B7","C7","D7","A8","B8","C8","D8","A9","B9","C9","D9",
             "AA","BA","CA","DA","AB","BB","CB","DB","AD","BD","CD","DD",
             "AE","BE","CE","DE"};
-    public static final int HOST_DEAL_THRESHOLD = 17;
 
     private Iterator<String> cardsIterator;
     private GameRule gameRule = new GameRule();
